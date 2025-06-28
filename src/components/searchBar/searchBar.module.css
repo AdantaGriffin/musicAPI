@@ -1,0 +1,24 @@
+.container{
+    height: 200px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.userInput{
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 30px;
+}
+.searchButton{
+    border-radius: 20px;
+    height: 35px;
+    width:100px;
+    margin: auto;
+}
+.searchButton:hover{
+    background-color: rgb(6, 44, 140);
+    color: rgb(197, 207, 223);
+}

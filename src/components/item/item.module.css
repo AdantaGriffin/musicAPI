@@ -1,0 +1,19 @@
+.container{
+    width: 500px;
+    height: 650px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.item-information{
+    border: 1px solid grey;
+    background-color: rgb(178, 138, 138);
+    height: 100%;
+    display: grid;
+    grid-template-rows: 50% 10% 10% 10%;
+}
+
+.img{
+    margin: auto;
+    width: 50%;
+}
