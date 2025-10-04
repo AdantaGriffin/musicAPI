@@ -15,8 +15,10 @@ function SearchBar(props){
     return (
         <>
             <div className={styles.container}>
-                <input onChange={handleTermChange} className={styles.userInput} type='text' id='userSearch' placeholder='search name | album | song'/>
-                <button onClick={passTerm} className={styles.searchButton} id='searchButton'>Search</button>
+                <div className={styles.containerInputs}>
+                    <input onChange={handleTermChange} className={styles.userInput} type='text' id='userSearch' placeholder='Search: Name | Album | Song'/>
+                    <button onClick={passTerm} className={styles.searchButton} id='searchButton'>Search</button>
+                </div>
             </div>
         </>
     )

@@ -46,11 +46,14 @@ function App() {
 
   return (
     <div className={styles.app}>
-      <Header/>
-      <SearchBar
+      <div className={styles.site}>
+        <Header
+        className={styles.headerCom}/>
+        <SearchBar
         onSearch={search}
       />
-      <Results userSearchResults={searchResults}/>
+        <Results userSearchResults={searchResults}/>
+      </div>
     </div>
   );
 }

@@ -6,7 +6,7 @@ function Header(){
         <>
             <header className={styles.header}>
                 <h1>Catalogue</h1>
-                <h2>preview top songs today..</h2>
+                <h3>preview top songs today..</h3>
             </header>
         </>
     )

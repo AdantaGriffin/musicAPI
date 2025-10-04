@@ -1,19 +1,9 @@
-.container{
-    width: 500px;
-    height: 650px;
-    margin: 30px auto;
-    text-align: center;
-}
-
 .item-information{
-    border: 1px solid grey;
-    background-color: rgb(178, 138, 138);
-    height: 100%;
-    display: grid;
-    grid-template-rows: 50% 10% 10% 10%;
-}
-
-.img{
-    margin: auto;
-    width: 50%;
+    border: 2px solid rgb(192, 110, 192);
+    border-radius: 10%;
+    padding: 10px;
+    background-color: rgba(242, 236, 236, 0.7);
+    text-align: center;
+    margin-bottom: 20px;
+    width: 300px;
 }

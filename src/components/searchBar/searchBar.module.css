@@ -1,24 +1,38 @@
 .container{
-    height: 200px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    margin: auto;
 }
-.userInput{
+.containerInputs{
+    border-radius: 20px;
     height: 50px;
-    width: 300px;
-    border-radius: 20px;
-    text-align: center;
-    margin: auto;
-    position: relative;
-    top: 30px;
-}
-.searchButton{
-    border-radius: 20px;
-    height: 35px;
-    width:100px;
-    margin: auto;
-}
-.searchButton:hover{
-    background-color: rgb(6, 44, 140);
-    color: rgb(197, 207, 223);
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    .userInput{
+        width: 75%;
+        border-radius: 20px;
+        text-align: center;
+        background-color: transparent;
+        border: none;
+        font-family: "Hanalei Fill";
+        color:rgb(192, 110, 192);
+        outline: none;
+    }
+    .searchButton{
+        width: 25%;
+        border-radius: 20px;
+        background-color: rgb(192, 110, 192);
+        color: whitesmoke;
+        font-family: "Hanalei Fill";
+        border: 14px solid rgba(242, 236, 236, 0.7);
+        background-color: rgb(192, 110, 192);
+    }
+    .searchButton:hover{
+        cursor: pointer;
+    }
+    .searchButton:active{
+        color: rgb(192, 110, 192);
+        border: 14px solid rgb(192, 110, 192);
+        background-color: rgba(242, 236, 236, 0.7);
+    }
 }
