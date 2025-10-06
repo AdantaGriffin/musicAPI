@@ -8,36 +8,7 @@ import { APIsearch } from '../api/api';
 
 function App() {
 
-  const [searchResults, setSearchResults] = useState([
-    {
-      image: 'image',
-      name: 'Drake',
-      album: 'Been HIM',
-      song: 'Godfather',
-      id: 1
-    },
-    {
-      image: 'image',
-      name: 'Future',
-      album: 'NFL',
-      song: 'CICI',
-      id: 2
-    },
-    {
-      image: 'image',
-      name: 'Kanye West',
-      album: 'On Sum',
-      song: 'Defiante',
-      id: 3
-    },
-    {
-      image: 'image',
-      name: 'Lil BAby',
-      album: 'Pampher',
-      song: 'Played Out',
-      id: 4
-    },
-  ]);
+  const [searchResults, setSearchResults] = useState([]);
 
   function search(term){
     APIsearch(term).then(result => setSearchResults(result));

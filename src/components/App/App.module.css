@@ -1,10 +1,18 @@
+@media only screen and (max-width: 914px){
+    .app{
+        background-position: -300px;
+    }
+}
+
 .app{
     background-image: url('../../../public/couple.jpg');
-    background-size: contain;
+    background-size: cover;
+    min-height: 800px;
 }
 .site{
     border: 1px solid lightblue;
     background-color: rgba(159, 211, 234, .8);
     color: rgb(192, 110, 192);
     font-family: "Hanalei Fill";
+    min-height: 800px;
 }
